@@ -46,3 +46,9 @@ On cherche des paramètres θ tels que l'hypothèse `h_θ(x)` soit au plus près
 
 - Toujours appliquer à un nouveau point la même normalisation que celle des données d'entraînement (`scaler.transform`, pas `fit_transform`).
 - Les notebooks sont livrés déjà exécutés, avec leurs sorties et leurs graphiques.
+
+## Graphiques supplémentaires (branche `claude/tp-plots-supplementaires`)
+
+Section « Graphiques supplémentaires » à la fin de chaque notebook :
+- **Ex. 1** : évolution de la droite selon les itérations, décroissance de J, trajectoire de θ sur les courbes de niveau, prédictions sur le graphique, résidus.
+- **Ex. 2** : nuages de points surface/prix et pièces/prix, convergence α = 0,07 contre α = 1, prix prédits contre réels, plan de régression 3D avec le point prédit.
